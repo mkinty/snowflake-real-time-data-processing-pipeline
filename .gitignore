@@ -12,6 +12,12 @@ venv/
 ENV/
 env.bak/
 .idea/
+snowflake_rsa_key.p8
+snowflake_rsa_key.p8/
+snowflake_rsa_public_key.pub
+snowflake_rsa_public_key.pub/
+enonce.ipynb
+enonce.ipynb/
 venv.bak/
 pythonenv*
 
