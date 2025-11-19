@@ -1,4 +1,4 @@
-# PIPELINE DE TRAITEMENT DES DONNÉES EN TEMPS RÉEL DANS SNOWFLAKE AVEC SNOW CLI 
+# Pipeline de traitement des données en temps réel dans Snowflake avec Snow CLI 
 
 ___
 
