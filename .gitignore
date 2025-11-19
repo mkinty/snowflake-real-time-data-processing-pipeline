@@ -1,0 +1,20 @@
+# Environments
+.static/
+.env
+.env/
+.venv/
+env/
+venv/
+./venv/
+./venv
+/venv/
+/venv
+ENV/
+env.bak/
+.idea/
+venv.bak/
+pythonenv*
+
+
+
+
