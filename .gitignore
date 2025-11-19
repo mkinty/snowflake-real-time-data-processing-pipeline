@@ -17,9 +17,7 @@ snowflake_rsa_key.p8
 ./snowflake_rsa_public_key.pub
 snowflake_rsa_public_key.pub
 enonce.ipynb
-./enonce.ipynb
-snowflake_rthal_pipeline.ipynb
-./snowflake_rthal_pipeline.ipynb
+enonce.ipynb/
 venv.bak/
 pythonenv*
 
