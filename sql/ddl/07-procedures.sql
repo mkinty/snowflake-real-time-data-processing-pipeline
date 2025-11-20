@@ -174,7 +174,7 @@ BEGIN
         IFF(:n_errors > 0, 'FAILED', 'SUCCEEDED');
 
     IF (:n_errors = 0) THEN
-        DELETE FROM common.data_to_process;
+        TRUNCATE TABLE common.data_to_process;
     ELSE
         RAISE pipeline_exception;
     END IF;

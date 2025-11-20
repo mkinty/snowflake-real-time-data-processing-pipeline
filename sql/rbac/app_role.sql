@@ -34,11 +34,11 @@ GRANT USAGE ON FUTURE SCHEMAS IN DATABASE health_app_db TO ROLE app_role;
 -- Tables existantes
 GRANT SELECT, INSERT ON ALL TABLES IN SCHEMA raw TO ROLE app_role;
 GRANT SELECT, INSERT ON ALL TABLES IN SCHEMA staging TO ROLE app_role;
-GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA common TO ROLE app_role;
+GRANT SELECT, INSERT, UPDATE, DELETE, TRUNCATE ON ALL TABLES IN SCHEMA common TO ROLE app_role;
 -- Tables futures
 GRANT SELECT, INSERT ON FUTURE TABLES IN SCHEMA raw TO ROLE app_role;
 GRANT SELECT, INSERT ON FUTURE TABLES IN SCHEMA staging TO ROLE app_role;
-GRANT SELECT, INSERT, UPDATE, DELETE ON FUTURE TABLES IN SCHEMA common TO ROLE app_role;
+GRANT SELECT, INSERT, UPDATE, DELETE, TRUNCATE ON FUTURE TABLES IN SCHEMA common TO ROLE app_role;
 /* =============================================================================
    STREAMS — Lecture (existants et futurs)
 ============================================================================= */
