@@ -63,9 +63,9 @@ SET RSA_PUBLIC_KEY = '-----BEGIN PUBLIC KEY----- ... -----END PUBLIC KEY-----';
 
 ## Configuration du rôle devsecops_role
 
-Créer le rôle `devsecops_role et lui attribuer les privilèges nécessaires pour la gestion des objets Snowflake.
+Créer le rôle `devsecops_role` et lui attribuer les privilèges nécessaires pour la gestion des objets Snowflake.
 
-Le script SQL `sql/rbac/devsecops_role.sql configure :
+Le script SQL `sql/rbac/devsecops_role.sql` configure :
 
 - La création de bases de données, utilisateurs, rôles et warehouses.
 
@@ -75,7 +75,7 @@ Le script SQL `sql/rbac/devsecops_role.sql configure :
 
 ## Configuration du fichier config.toml via Snow CLI
 
-Utiliser le script config_snow_cli.sh pour créer la connexion avec Snowflake et générer le fichier config.toml.
+Utiliser le script `config_snow_cli.sh` pour créer la connexion avec Snowflake et générer le fichier `config.toml`.
 
 **Exemple d’exécution :**
 
@@ -99,7 +99,7 @@ snow --config-file ./config.toml connection test
 ```
 ## Déploiement de la pipeline via snow_cli_commandes.sh
 
-Le script `snow_cli_commandes.sh contient toutes les commandes nécessaires pour :
+Le script `snow_cli_commandes.sh` contient toutes les commandes nécessaires pour :
 
 - Configurer les rôles (`devops_role`, `app_role`, `engineer_role`).
 
