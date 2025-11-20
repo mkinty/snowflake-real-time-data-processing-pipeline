@@ -32,7 +32,7 @@ Les scripts SQL sont organisés dans les dossiers suivants :
 
 - `sql/ddl/` : objets de base (tables, streams, UDF, fonctions, procédures, tasks).
 
-- `sql/dml/ : insertion de données de test et historique des tasks.
+- `sql/dml/` : insertion de données de test et historique des tasks.
 
 ## Création de l’utilisateur de service pour CI/CD
 
